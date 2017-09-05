@@ -57,6 +57,10 @@ for ii = 1:50
     z(ii) = sqrt(xx(ii,1)^2+xx(ii,2)^2);
 end
 
+xx=rand(50,2);
+z=sqrt(xx(:,1).^2 + xx(:,2).^2).'
+
+
 %Answer
 %dist = sqrt(sum((xx,1).^2+(xx,2).^2))
 
